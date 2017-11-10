@@ -5,6 +5,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Locally Run", "Locally Run"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApplication", "SampleApplication\SampleApplication.csproj", "{1BF5D132-6E78-4E01-82D6-7C21C7F26B96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleResource", "SampleResource\SampleResource.csproj", "{464275C4-B4A7-47CC-B08B-B65A8FC8B6B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,11 +17,16 @@ Global
 		{1BF5D132-6E78-4E01-82D6-7C21C7F26B96}.Debug|x64.Build.0 = Debug|Any CPU
 		{1BF5D132-6E78-4E01-82D6-7C21C7F26B96}.Release|x64.ActiveCfg = Release|Any CPU
 		{1BF5D132-6E78-4E01-82D6-7C21C7F26B96}.Release|x64.Build.0 = Release|Any CPU
+		{464275C4-B4A7-47CC-B08B-B65A8FC8B6B4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{464275C4-B4A7-47CC-B08B-B65A8FC8B6B4}.Debug|x64.Build.0 = Debug|Any CPU
+		{464275C4-B4A7-47CC-B08B-B65A8FC8B6B4}.Release|x64.ActiveCfg = Release|Any CPU
+		{464275C4-B4A7-47CC-B08B-B65A8FC8B6B4}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1BF5D132-6E78-4E01-82D6-7C21C7F26B96} = {18028036-6B08-4992-B42E-F4372C7FD985}
+		{464275C4-B4A7-47CC-B08B-B65A8FC8B6B4} = {18028036-6B08-4992-B42E-F4372C7FD985}
 	EndGlobalSection
 EndGlobal
