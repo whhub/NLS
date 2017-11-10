@@ -1,8 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Locally Run", "Locally Run", "{18028036-6B08-4992-B42E-F4372C7FD985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApplication", "SampleApplication\SampleApplication.csproj", "{1BF5D132-6E78-4E01-82D6-7C21C7F26B96}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BF5D132-6E78-4E01-82D6-7C21C7F26B96}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1BF5D132-6E78-4E01-82D6-7C21C7F26B96}.Debug|x64.Build.0 = Debug|Any CPU
+		{1BF5D132-6E78-4E01-82D6-7C21C7F26B96}.Release|x64.ActiveCfg = Release|Any CPU
+		{1BF5D132-6E78-4E01-82D6-7C21C7F26B96}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BF5D132-6E78-4E01-82D6-7C21C7F26B96} = {18028036-6B08-4992-B42E-F4372C7FD985}
 	EndGlobalSection
 EndGlobal
