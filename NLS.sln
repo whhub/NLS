@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Review", "Review", "{BBA6E1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reference", "Reference", "{E0B78656-A07E-4A20-AC64-C33F8049D89F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRuntimeResource", "SampleRuntimeResource\SampleRuntimeResource.csproj", "{3EB3ED82-134A-4949-BC52-238732F222CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -25,6 +27,10 @@ Global
 		{464275C4-B4A7-47CC-B08B-B65A8FC8B6B4}.Debug|x64.Build.0 = Debug|Any CPU
 		{464275C4-B4A7-47CC-B08B-B65A8FC8B6B4}.Release|x64.ActiveCfg = Release|Any CPU
 		{464275C4-B4A7-47CC-B08B-B65A8FC8B6B4}.Release|x64.Build.0 = Release|Any CPU
+		{3EB3ED82-134A-4949-BC52-238732F222CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3EB3ED82-134A-4949-BC52-238732F222CE}.Debug|x64.Build.0 = Debug|Any CPU
+		{3EB3ED82-134A-4949-BC52-238732F222CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{3EB3ED82-134A-4949-BC52-238732F222CE}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1BF5D132-6E78-4E01-82D6-7C21C7F26B96} = {18028036-6B08-4992-B42E-F4372C7FD985}
 		{464275C4-B4A7-47CC-B08B-B65A8FC8B6B4} = {18028036-6B08-4992-B42E-F4372C7FD985}
+		{3EB3ED82-134A-4949-BC52-238732F222CE} = {18028036-6B08-4992-B42E-F4372C7FD985}
 	EndGlobalSection
 EndGlobal
